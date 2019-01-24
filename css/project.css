@@ -1,0 +1,40 @@
+#portfolio {
+    height: 800px;
+    /* margin-bottom: -4px; */
+    font-family: var(--font5);
+    padding-top: 30px;
+    border-bottom: 15px dotted white;
+    
+}
+
+h2 {
+    font-family: var(--font5);
+    font-size: 90px;
+}
+
+.btn {
+    background-color: slategray;
+}
+
+.img {
+    margin-bottom: 20px;
+    border-radius: 50%;
+    
+}
+
+.left-col {
+   text-align: center;
+   border: black 4px;
+}
+
+.mid-col {
+    text-align: center;
+}
+
+.right-col {
+    text-align: center;
+}
+img {
+    height: 330px;
+    width: 330px;
+}

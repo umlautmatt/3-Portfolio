@@ -4,41 +4,189 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=Portfolio, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Matt Hawley</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Open+Sans+Condensed:300|Roboto+Mono" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Permanent+Marker" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Thambi" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark gray">
+        <!-- classes are broken up by spaces; we are not able to change class names when using bootstrap -->
+
+        <a class="navbar-brand" size="20%" href="#">Matt Hawley</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
-                <li class="nav-item active">
+                <!-- <li class="nav-item active">
                     <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li> -->
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    <a class="nav-link" href="#contact"> Contact</a>                    
                 </li>
             </ul>
         </div>
     </nav>
 
-    <div class="jumbotron">
-        <h1 class="display-4">Hello, world!</h1>
-        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-        <hr class="my-4">
-        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+    <div class="jumbotron" id="jumboBG">
+        <h1 class="display-4"><center>Matt Hawley</center></h1>
+        <p class="lead">Indianapolis, IN</p>
+        <hr class="my-4">  
+            <div class="container-fluid">
+                <div id="carouselText" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                      <p>ElevenFifty Academy Student</p>
+                  </div>
+                  <div class="carousel-item">
+                    <p>Aspriring Web Developer</p>
+                  </div>
+                  <div class="carousel-item">
+                    <p>U.S. Military Veteran</p>
+                  </div>
+                </div>
+              </div></div>
+       <div>
+           <img id="pacersPic" src="assets/img/pacers-cutout3.png" alt="IMG Not Available">
+       </div>
     </div>
+    
+    <!-- Portfolio Section  -->
+<section id="portfolio">
+        <div class="container-fluid">
+            <h2 class="text-center text-uppercase" id="Portfolio">Portfolio<br><br></h2>
+            <div class="row">
+                <div class="col-sm">
+                    <div class="left-col">
+                    <img class="img" src="../3-Portfolio/assets/img/TutorialThumb.png" alt="IMG Not Available"/>
+                    <a target="_blank" href="https://umlautmatt.github.io/tutorialWebpage" class="btn btn-primary btn-lg" role="button">View Tutorial Webpage Project</a>
+                    </div>
+                </div>
+                    
+                <div class="col-sm">
+                    <div class="mid-col">
+                        <img class="img" src="../3-Portfolio/assets/img/sportDB_API.png" alt="IMG Not Available"></img>
+                        <a target="_blank" href="https://the-sportsdb-api-project.firebaseapp.com/" class="btn btn-primary btn-lg" role="button">View SportsDB API Project</a>
+                    </div>
+                
+                </div>
+                <div class="col-sm">
+                    <div class="right-col">
+                        <img class="img" src="../3-Portfolio/assets/img/AlienThumb.png" alt="IMG Not Available">
+                        <a target="_blank" href="https://codepen.io/umlautmatt/pen/MZXypo" class="btn btn-primary btn-lg" role="button">View CSS Creature</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+
+<!-- About Section -->
+<section id="about">
+    <div class="container-fluid" id="topAbout">
+        <h2 class="text-center text-uppercase">About Me</h2>
+        <div class="row">
+            <div class="col-md-12">
+                <img src="assets/img/profilePic.png" id="profilePic">
+                <p id="me">I'm currently a student in the JavaScript cohort at the Eleven Fifty Academy in Fishers, Indiana.  Prior to becoming a student here, I was in the U.S. Air Force and then worked for a military contractor as an Avionics Technician.  The aircraft I worked with required many different software packages which led to me developing an interest for software development.</p> <br>
+                <p id="smallMe"> Also, over the past few years I've attended Berklee College of Music online for music production and have built a recording studio in my home.  The world of modern recording also involves many different types of software, which has also led me to an interest in software development. </p>
+            </div>                    
+        </div>   
+        <div class="row">
+            <div class="col-md-3">
+                <div class="gitHub">
+                    <a target="_blank" href="https://github.com/umlautmatt" class="btn btn-primary btn-lg btn-block" role="button" id="gitHubBtn">Go to my GitHub!</a>
+                </div>
+            </div>
+            
+            <div class="col-md-3">
+
+            </div>
+
+            <div class="col-md-3">
+                <div class="click">
+                <p class="me"> Links to <br>Personal<br>Resume<br>
+                    and <br> LinkedIn <br>profile!</p>
+                </div>
+            </div>
+
+            <div class="col-md-3" id="iconDiv">
+                <a target="_blank" href=""><img src="assets/img/resumeIcon.png" id="resumeIcon"></a>
+                <a target="_blank" href="https://www.linkedin.com/in/matt-hawley-9b620837/"><img src="assets/img/linkedin.png" id="linkedIn"></a><br>
+            </div>
+        
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section  -->
+<section id="contact">
+    <div class="container">
+            <h2 class="text-center text-uppercase">Contact Me</h2>
+            <div class="row">
+                <form action="https://formspree.io/mahawley24@gmail.com" method="POST">
+                <div class="control-group">
+                    <div class="form-group">
+                        <label>Name</label>
+                        <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Your Name"
+                        id="name"
+                        required
+                        data-validation-required-message="Please enter your name"
+                        name="name"
+                        >
+                    <p class="help-block text-danger"></p>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <div class="form-group">
+                    <label>Email Address</label>
+                    <input
+                        type="email"
+                        class="form-control"
+                        placeholder="Your Email"
+                        id="email"
+                        required
+                        data-validation-required-message="Please enter your email"
+                        name="_replyto">
+                    <p class="help-block text-danger"></p>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <div class="form-group">
+                    <textarea
+                        class="form-control"
+                        rows="7"
+                        placeholder="Your Message"
+                        id="message"
+                        required
+                        data-validation-required-message="Please leave a message"
+                        name="message"
+                    ></textarea>
+                    <p class="help-block text-danger"></p>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <div id="success"></div>
+                    <button type="submit" class="btn btn-lg btn-black">
+                    <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                    Send Message
+                    </button>
+                </div>
+                </form>
+            </div>
+            </div>
+</section>
 
  <!-- JavaScript Tags    -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

@@ -1,0 +1,17 @@
+:root {
+    --green1: #2B823A;
+    --green2: #81C38D;
+    --green3: #AEDBB6;
+    --yellow1:  #FFE770;
+    --yellow2: rgb(238, 222, 140);
+    --yellow3: rgb(216, 206, 152);
+    --orange1: #E35033;
+    --orange2: #FC702F;
+
+    --font1:'Merriweather', serif;
+    --font2: 'Open Sans Condensed', sans-serif; 
+    --font3: 'Roboto Mono', monospace;
+    --font4: 'Permanent Marker', cursive;
+    --font5: 'Kaushan Script', cursive;
+    /* must change link & font type here for new font to take effect */
+}

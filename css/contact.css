@@ -1,0 +1,16 @@
+#contact {
+    background-blend-mode: color-burn;
+    background-color: var(--orange2);
+    
+}
+
+.control-group {
+    width: 560%;
+}
+
+/* #contact {
+    border-left: 10px solid black;
+    border-right: 10px solid black;
+    border-bottom: 10px groove black;
+    
+} */

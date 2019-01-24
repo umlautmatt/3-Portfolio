@@ -1,0 +1,30 @@
+#jumboBG {
+    background-image: URL(../assets/img/indyskyline.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-size: cover;
+    height: 93vh;
+    font-family: var(--font1);
+    margin-bottom: -2em;
+    border-bottom: solid black 10px;
+}
+
+#pacersPic {
+    position: absolute;
+    z-index: -1;
+}
+.display-4 {
+    font-size: 180px;
+}
+
+.lead {
+    text-align: center;
+    
+    font-size: 30px;
+}
+
+.carousel-item p {
+    font-family: 'Baloo Thambi', cursive;
+    font-size: 60px;
+    text-align: center;
+}

@@ -1,0 +1,14 @@
+
+
+.navbar-brand {
+    font-family: var(--font2);
+    color: white!important;
+    
+}
+
+
+
+
+.navbar-nav li a {
+    color: white!important;
+}
